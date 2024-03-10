@@ -6,43 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus craze</title>
 
-    <!-- Boxicon icons Link -->
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    
-    <!-- REMIXICONS Icons Link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
-
-    <!-- Link All the Stylimg files here -->
+    <!-- fevicon -->
+    <link rel="icon" type="image/x-icon" href="../img/Campus Craze Logo/fevicon-dark.png">
+    <!-- Link All the Styling Files here -->
     <link rel="stylesheet" href="../styles/index.css">
 
-    <!-- Google Font Link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/navbar.css">
+    <!-- All Icons Link here -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
 <body>
 
     <!--TODO: Navbar / Header section -->
-    <nav class="navbar">
-        <div class="container"> 
-            <h1>CAMPUS <span class="craze">CRAZE</span></h1>    
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>services</li>
-                <li>connect us</li>
-            </ul>
-            
-            <div class="features-showcase-dropdown">
-            </div>
+    <header class="header">
+        <a href="#" class="logo"><i class='bx bxs-graduation'></i><span>Campus Craze</span></a>
+        
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Connect</a></li>
+            <li><a href="#">Blogs</a></li>
+        </ul>
 
-            <img src="../img/user.png" alt="my-profile">
+        <div class="main">
+            <a href="#" class="user"><i class='bx bxs-user-circle'></i>Sign in</a>
+
+            <a href="#">Regiser</a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
         </div>
-    </nav>
+
+    </header>
 
 
 
@@ -66,10 +62,13 @@
     </section>
 
     <!--TODO:  footer  with social media icons and copyright information -->
-    <section class="footer">
+    <!-- <section class="footer">
         <p>&copy; Campus Craze 2023</p>
-    </section>
+    </section> -->
 
+
+    <!--JS Links  -->
+    <script src="../js/app.js"></script>
     <script src="../js/navbar.js"></script>
 </body>
 
