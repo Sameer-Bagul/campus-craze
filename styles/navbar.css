@@ -3,12 +3,12 @@
 
 /*=============== VARIABLES CSS ===============*/
 :root {
-  --header-height: 3.5rem;
+  /* --header-height: 3.5rem; */
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(230, 75%, 56%);
-  --title-color: hsl(230, 75%, 15%);
+  --first-color:  #f96d00;
+  --title-color:  #393e46;
   --text-color: hsl(230, 12%, 40%);
   --body-color: hsl(230, 100%, 98%);
   --container-color: hsl(230, 100%, 97%);
@@ -90,7 +90,8 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 1120px;
+  /* max-width: 1120px; */
+  width: 95%;
   margin-inline: 1.5rem;
 }
 
@@ -139,12 +140,15 @@ img {
 
 /*=============== HEADER & NAV ===============*/
 .header {
+  margin: 20px ;
+  padding: 20px 20px 20px 20px;
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  border-radius: 25px ;
+  width: 96%;
   background-color: var(--body-color);
-  box-shadow: 0 2px 16px hsla(230, 75%, 32%, .15);
+  background: #ffffff36;
+  /* backdrop-filter: blur(2px); */
+  box-shadow: 5px 5px 16px hsla(0, 0%, 0%, 0.20);
   z-index: var(--z-fixed);
 }
 
@@ -198,7 +202,7 @@ img {
 .nav__list {
   display: flex;
   flex-direction: column;
-  row-gap: 2.5rem;
+  row-gap: 2rem;
   text-align: center;
 }
 
@@ -267,7 +271,7 @@ img {
 .login__form {
   background-color: var(--container-color);
   padding: 2rem 1.5rem 2.5rem;
-  box-shadow: 0 8px 32px hsla(230, 75%, 15%, .2);
+  box-shadow: 0 8px 32px rgba(10, 19, 67, 0.2);
   border-radius: 1rem;
   row-gap: 1.25rem;
   text-align: center;

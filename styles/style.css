@@ -1,0 +1,7 @@
+body {
+    /* Set the cursor to a custom PNG image */
+    cursor: url('campus-craze/img/cursordesigns/8.png'), auto;
+  
+    /* Set the width and height of the cursor to 32px */
+    cursor: 32px 32px;
+  }

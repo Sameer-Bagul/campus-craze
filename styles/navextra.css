@@ -1,0 +1,83 @@
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav__item {
+    position: relative;
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .nav__item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #f96d00;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .nav__item:hover::after {
+    transform: scaleX(1);
+  }
+  
+  .nav__link:hover {
+    color: #f96d00;
+    /* font-weight: bold; */
+  }
+  
+  /* Background blur glow animation */
+  .nav__item::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 10px;
+    background-color: rgba(249, 109, 0, 0.5);
+    z-index: -1;
+    filter: blur(90px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .nav__item:hover::before {
+    opacity: 1;
+  }
+  
+  /* Neon blur glow animation for search and user buttons */
+  .nav__search,
+  .nav__login {
+    position: relative;
+  }
+  
+  .nav__search::after,
+  .nav__login::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border-radius: 10px;
+    background-color: rgba(249, 109, 0, 0.5);
+    z-index: -1;
+    filter: blur(90px);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .nav__search:hover::after,
+  .nav__login:hover::after {
+    opacity: 1;
+  }
+  
