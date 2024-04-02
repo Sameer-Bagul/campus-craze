@@ -13,37 +13,68 @@
 	<link rel="stylesheet" href="../styles/hero.css" />
 	<link rel="stylesheet" href="../styles/navbar.css" />
 	<link rel="stylesheet" href="../styles/section.css">
+	<link rel="stylesheet" href="../styles/1.css">
+	<link rel="stylesheet" href="../styles/my-campus-button.css">
 
 	<!-- All Icons Link here -->
 	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" />
 
+
+	<style>
+		.linear-text-gradient {
+			background: linear-gradient(to top, rgb(0, 255, 51), rgb(0, 0, 0));
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent;
+			font-size: 18px;
+			font-weight: 600;
+		}
+	</style>
 </head>
 
 <body>
-
-
-	<!-- header section-->
-
-	<header class="header" id="header">
+    <div class="background-image">
+        <!-- This tag is only for enabling the background -->
+    </div>
+	<div class="first-glass-page">
+		<!-- header section-->
+	
+		<header class="header" id="header">
 			<nav class="nav container">
 				<!-- <a href="#" class="nav__logo">Campus Craze</a> -->
-				<a href="#" class="nav__logo__png"><img src="../img/Campus Craze Logo/logo-normal-black.png"
-						alt="Campus Craze" /></a>
+				<!-- <a href="#" class="nav__logo__png"><img src="../img/Campus Craze Logo/logo-normal-black.png"
+						alt="Campus Craze" /></a> -->
+				<h1>Campus <span class="craze">Craze</span></h1>
+
 
 				<div class="nav__menu" id="nav-menu">
+
 					<ul class="nav__list">
-						<li class="nav__item"><a href="#" class="nav__link">Home</a></li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">About Us</a>
+							<a href="../html/admin-desktop.html" class="nav__link">My Campus</a>
 						</li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">Services</a>
+							<a href="#home" class="nav__link">Home</a>
 						</li>
-						<li class="nav__item"><a href="#" class="nav__link">Blogs</a></li>
 						<li class="nav__item">
-							<a href="#" class="nav__link">Contact Us</a>
+							<a href="#explore" class="nav__link">Explore</a>
 						</li>
+						<li class="nav__item">
+							<a href="#about" class="nav__link">About Us</a>
+						</li>
+						<li class="nav__item">
+							<a href="#blogs" class="nav__link">Blogs</a>
+						</li>
+						<li class="nav__item">
+							<a href="#contact us" class="nav__link">Contact Us</a>
+						</li>
+						<li class="nav__item ">
+							<a href="#community" class="nav__link">Community</a>
+						</li>
+						<!-- <div class="linear-text-gradient">
+							<p>Community</p>
+						</div> -->
 					</ul>
 
 					<!-- Close button -->
@@ -65,77 +96,176 @@
 					</div>
 				</div>
 			</nav>
-	</header>
+		</header>
 
-	<!-- header -> search  section -->
-	<div class="search" id="search">
-		<form action="" class="search__form">
-			<i class="ri-search-line search__icon"></i>
-			<input type="search" placeholder="What are you looking for?" class="search__input" />
-		</form>
+		<!-- header -> search  section -->
+		<div class="search" id="search">
+			<form action="" class="search__form">
+				<i class="ri-search-line search__icon"></i>
+				<input type="search" placeholder="What are you looking for?" class="search__input" />
+			</form>
 
-		<i class="ri-close-line search__close" id="search-close"></i>
-	</div>
+			<i class="ri-close-line search__close" id="search-close"></i>
+		</div>
 
-	<!-- header -> login section  -->
+		<!-- header -> login section  -->
 
-	<div class="login" id="login">
-		<form action="" class="login__form">
-			<h2 class="login__title">Log In</h2>
+		<div class="login" id="login">
+			<form action="" class="login__form">
+				<h2 class="login__title">Log In</h2>
 
-			<div class="login__group">
-				<div>
-					<label for="email" class="login__label">Email</label>
-					<input type="email" placeholder="Write your email" id="email" class="login__input" />
+				<div class="login__group">
+					<div>
+						<label for="email" class="login__label">Email</label>
+						<input type="email" placeholder="Write your email" id="email" class="login__input" />
+					</div>
+
+					<div>
+						<label for="password" class="login__label">Password</label>
+						<input type="password" placeholder="Enter your password" id="password" class="login__input" />
+					</div>
 				</div>
 
 				<div>
-					<label for="password" class="login__label">Password</label>
-					<input type="password" placeholder="Enter your password" id="password" class="login__input" />
+					<p class="login__signup">
+						You do not have an account? <a href="#">Sign up</a>
+					</p>
+
+					<a href="#" class="login__forgot"> You forgot your password </a>
+
+					<button type="submit" class="login__button">Log In</button>
 				</div>
-			</div>
+			</form>
 
-			<div>
-				<p class="login__signup">
-					You do not have an account? <a href="#">Sign up</a>
-				</p>
-
-				<a href="#" class="login__forgot"> You forgot your password </a>
-
-				<button type="submit" class="login__button">Log In</button>
-			</div>
-		</form>
-
-		<i class="ri-close-line login__close" id="login-close"></i>
-	</div>
+			<i class="ri-close-line login__close" id="login-close"></i>
+		</div>
 
 	</div>
 
 	<!-- todo hero section  -->
 
-	<section class="hero section">
+	<section class="hero section" id="home">
 		<div class="inner-section-area">
-
+			<div class="hero-text">
+				<h3>Welcome to the Next Generation of Campus Collaboration</h3>
+				<h1>Hey Crazies!</h1>
+				<p>
+					Join the dynamic community where college students come together
+					to collaborate, innovate, and thrive. Whether you're seeking academic support,
+					entrepreneurial opportunities, or simply looking to connect with like-minded peers,
+					Campus Craze is your gateway to endless possibilities.
+				</p>
+			</div>
+			<div class="hero-img">
+				<img src="../img/hero-img.png" alt="">
+			</div>
 		</div>
 	</section>
 
+	</div>
 	<!-- showcase section  -->
 	<section class="showcase section">
 		<div class="inner-section-area">
-
+			<div class="cards-container">
+				<div class="card">
+					<img src="../img/student-5266576-4403850.webp" alt="Students">
+					<h4>50k+ students</h4>
+					<p>Join our diverse community of over 50,000 students worldwide, learning and growing together.</p>
+				</div>
+				<div class="card">
+					<img src="../img/OIP.png" alt="Cities">
+					<h4>10+ Cities</h4>
+					<p>Spanning across more than 10 vibrant cities, our community is thriving in urban hubs globally.
+					</p>
+				</div>
+				<div class="card">
+					<img src="../img/universitie.webp" alt="Universities">
+					<h4>1000+ Universities</h4>
+					<p>Connected with over 1000 esteemed universities, our network empowers academic excellence.</p>
+				</div>
+				<div class="card">
+					<img src="../img/programmer-avatar.png" alt="Developers">
+					<h4>10k+ Developers</h4>
+					<p>With over 10,000 developers onboard, innovation and collaboration are at the core of our
+						community.</p>
+				</div>
+				<div class="card">
+					<img src="../img/community.webp" alt="Community">
+					<h4>Largest Community</h4>
+					<p>Be a part of the largest and most inclusive community, where every voice matters.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 
-	<!-- cards section  -->
-	<section class="cards section">
+	<!-- feature-cards section  -->
+	<section class="feature-cards section" id="explore">
 		<div class="inner-section-area">
-
+			<h1>Explore more</h1>
+			<div class="feature-cards-container">
+				<p> {todo: here we will display the slider of all the features} </p>
+			</div>
 		</div>
 	</section>
 
 	<!-- about section  -->
-	<section class="about section">
+	<section class="about section" id="about">
 		<div class="inner-section-area">
+			
+			<h1>About Us</h1>
+			
+			<div class="about-content">
+				<div class="about-img">
+					<img src="../img/Man1.png" alt="img">
+				</div>
+				<div class="about-text">
+					<p class="para">
+						<!-- Welcome to Campus Craze – the ultimate platform tailored specifically for college students seeking connection, collaboration, and creativity! 
+						Here, you'll discover an interactive space where students unite to explore shared interests, ignite innovative projects, and forge lasting connections.
+						But that's just the beginning. Campus Craze isn't just a social hub; it's a vibrant community that goes beyond casual interactions. 
+						By joining Campus Craze, you're not just accessing a platform – you're tapping into a network of like-minded individuals who share your passions and ambitions. 
+						This community isn't just about socializing; it's about building valuable relationships that can extend far beyond your college years.
+						And the benefits don't end there. Campus Craze isn't just about fun; it's about future opportunities. 
+						By engaging with our diverse community, you'll open doors to exciting career prospects and recruiting opportunities. 
+						Whether you're looking for internships, job opportunities, or connections in your field of interest, Campus Craze provides a platform for professional growth and development. 
+						Moreover, Campus Craze empowers students and developers to showcase their projects to a wide audience within the community. 
+						Whether you've created a groundbreaking app, a revolutionary website, or an innovative tool, you can share it with fellow students who can benefit from your work. 
+						Not only does this allow you to gain recognition for your efforts, but it also opens up opportunities to earn money or even get hired by companies seeking talented individuals with real-world project experience.
+						But it doesn't stop there. Need to find a roommate for the upcoming semester? Our room finder feature has you covered. Want to save money on textbooks? 
+						Dive into our book exchange section to swap study materials with fellow students. And if you're a developer or tech enthusiast, 
+						our vibrant developers' community offers a space to connect, collaborate, and showcase your projects – opening doors to potential collaborations and career opportunities in the tech industry.
+						So, whether you're here to network, collaborate, or simply stay connected with campus life, Campus Craze is your go-to destination. Welcome aboard – let's make your college journey unforgettable, together! -->
+
+						Welcome to Campus Craze - The ultimate platform for college students seeking connection,
+						collaboration, and creativity! Here, students unite to explore shared interests,
+						ignite innovative projects, and forge lasting connections beyond campus life.
+						</p>
+
+						<br>
+						
+						<p class="para"> 
+						Get a huge User base by shocasing your Projects to recruters and other students on our Community Page.
+						get Updates with tech community and make projects with the peers of same interest. 
+						</p>
+
+						<br>
+						
+						<p class="para"> 
+						But it doesn't end there – we also cater to your academic needs.
+						From solving stationary problems to finding the perfect roommate, our features have got you covered!
+						Whether it's through our stationary exchange section, roommate finder, or community chats,
+						we strive to make your college life smoother.
+						</p>
+
+						<br>
+						<p class="para">
+						Connect with peers in your field and unlock opportunities for personal and professional development.
+						Join us on Campus Craze and embark on a journey where you engage with like-minded individuals and
+						explore endless possibilities together!
+					</p>
+			    </div>
+				<!-- <p>but it dosent end here we also look for  talented individuals who can contribute to our project in various ways such as designing interfaces or writing code</p> -->
+			</div>
 
 		</div>
 	</section>
@@ -143,14 +273,15 @@
 	<!-- what we do / collaborate / contribute section -->
 	<section class="contribute section">
 		<div class="inner-section-area">
+			<h1>lets collaborate !</h1>
 
 		</div>
 	</section>
 
 	<!-- contact us section -->
-	<section class="about section">
+	<section class="contact section">
 		<div class="inner-section-area">
-
+			<h1>contact us</h1>
 		</div>
 	</section>
 
@@ -164,6 +295,7 @@
 	<!--JS Links  -->
 	<script src="../js/app.js"></script>
 	<script src="../js/navbar.js"></script>
+	<script src="../js/scrollbar.js"></script>
 </body>
 
 </html>
