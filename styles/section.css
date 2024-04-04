@@ -1,7 +1,9 @@
+/* Css to hide X-direction scrolling */
 body {
     overflow-x: hidden; /* Disable horizontal scrolling */
 }
 
+/* stylling for all sections and backgroun image */
 .section {
     display: flex;
     justify-content: center;
@@ -30,9 +32,13 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);    
     border-top: 1px solid #ffffff;
     border-left: 1px solid #ffffff;
-    
-
 }
+
+.inner-section-area h1{
+    text-align: center;
+}
+
+/*! styling for hero section */
 .hero .inner-section-area{
     margin-top: 90px;
     padding: 60px;
@@ -45,6 +51,7 @@ body {
 .hero .inner-section-area p{
     padding: 0px 70px 0px 0px ;
 }
+
 .hero .hero-text {
     padding: 0px 30px 0px 30px;
 }
@@ -56,6 +63,8 @@ body {
     height: auto;
     align-self: flex-end;
 }
+
+/*! Stylling for showcase section */
 .showcase .cards-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -103,10 +112,12 @@ body {
     transform: scale(1.1);    
 }
 
-.feature-cards h1{
-    text-align: center;
-}
+/*! Styling for Explore section*/
 
+
+
+
+/*! Stylling for about section  */
 .about h1 {
     text-align: center;
 }
@@ -129,5 +140,4 @@ p{
 }
 .about-content .about-text .para {
     text-indent: 40px;
-    
 }

@@ -56,3 +56,32 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
+
+//  JS for drop down menu
+document.addEventListener("DOMContentLoaded", function() {
+   const exploreButton = document.querySelector('.explore-button');
+   const dropdownMenu = document.querySelector('.dropdown-menu');
+
+   exploreButton.addEventListener('click', function() {
+       const isActive = dropdownMenu.classList.contains('active');
+
+       // Close all dropdowns
+       document.querySelectorAll('.dropdown-menu').forEach(menu => {
+           menu.classList.remove('active');
+       });
+
+       // Toggle the clicked dropdown
+       if (!isActive) {
+           dropdownMenu.classList.add('active');
+       }
+   });
+
+   // Close dropdowns when clicking outside
+   window.addEventListener('click', function(e) {
+       if (!e.target.closest('.nav__item')) {
+           document.querySelectorAll('.dropdown-menu').forEach(menu => {
+               menu.classList.remove('active');
+           });
+       }
+   });
+});

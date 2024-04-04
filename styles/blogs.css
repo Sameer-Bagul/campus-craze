@@ -1,0 +1,143 @@
+/* Styling for Blogs section */
+.blog-showcase {
+    width: 96%;
+    height: auto;
+    margin: 0% 2% 2% 2%;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    border-top: 1px solid #ffffff;
+    position: relative;
+}
+
+.blog-showcase::before,
+.blog-showcase::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    backdrop-filter: blur(8px);
+    z-index: -1;
+}
+
+
+
+.blog-showcase::after {
+    backdrop-filter: blur(10px); 
+}
+
+.blog-showcase h1 {
+    text-align: center;
+}
+
+.glass-card-grid {
+    display: flex;
+    gap: 20px;
+    padding: 3rem 2rem;
+    margin: 0 2%;
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+    .glass-card-grid {
+        flex-direction: column;
+    }
+}
+
+.glass-card {
+    width: 320px;
+    min-height: 350px;
+    box-shadow: 1rem 0 3rem -2rem #000000;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s;
+    margin: 0;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+    backdrop-filter: blur(15px);
+    position: relative;
+    transition: all .40s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+    .glass-card {
+        box-shadow: 0rem -20px 3rem -1rem #000;
+    }
+}
+
+.glass-card:hover {
+    transform: translateY(-2rem) rotate(5deg);
+    background-color: #fc983afa;
+    
+}
+
+.glass-card:first-child:hover {
+    /* transform: translate(-0.5rem, -1rem) rotate(3deg); */
+    transform: translateY(-2rem) rotate(5deg);
+}
+
+.glass-card:not(:first-child) {
+    margin-left: -130px;
+    box-shadow: -3rem 0 3rem -2rem #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .glass-card:not(:first-child) {
+        margin-left: auto;
+        margin-top: -50px;
+        box-shadow: 0rem -20px 3rem -1rem #000;
+    }
+}
+
+.glass-card-title {
+    font-size: 1.3rem;
+    margin: 0 0 1rem;
+}
+
+.glass-card a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.glass-card p {
+    font-weight: normal;
+    line-height: 1.5rem;
+}
+
+.glass-card .tags a {
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #5b2600;
+    font-size: 0.66rem;
+    margin-inline-end: 0.66rem;
+}
+
+.glass-card .author-row {
+    margin-block-start: auto;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 0.5rem;
+    align-items: center;
+    color: #565656;
+    line-height: 1.3;
+}
+
+.text-card {
+    align-content: flex-start;
+}
+
+.Blogs-slideshow .blog-container .demo-user,
+h4 {
+    display: inline;
+}
+
+.Blogs-slideshow .blog-container .demo-user {
+    width: 30px;
+}
