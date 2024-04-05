@@ -52,17 +52,16 @@
 .glass-card {
     width: 320px;
     min-height: 350px;
-    box-shadow: 1rem 0 3rem -2rem #000000;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    transition: 0.2s;
-    margin: 0;
+    padding: 20px;
     border-radius: 25px;
-    border: 1px solid rgba(255, 255, 255, 0.333);
+    border-top: 1px solid #ffffffc2;
+    border-left: 1px solid #ffffffc4;
     backdrop-filter: blur(15px);
     position: relative;
-    transition: all .40s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -140,4 +139,26 @@ h4 {
 
 .Blogs-slideshow .blog-container .demo-user {
     width: 30px;
+}
+
+.blog-welcome-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+    padding: 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(15px); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);    
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.blog-welcome-card h3{
+    font-size: 30px;
+}
+.blog-welcome-card i {
+    font-size: 30px;
+    color: #000;
+    font-weight: 700;
 }

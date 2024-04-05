@@ -2,52 +2,41 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Campus craze</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Craze</title>
 
-	<!-- fevicon -->
-	<link rel="icon" type="image/x-icon" href="../img/Campus Craze Logo/fevicon-dark.png" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/Campus Craze Logo/fevicon-dark.png">
 
-	<!-- Link All the Styling Files here -->
-	<link rel="stylesheet" href="../styles/navbar.css" />
-	<link rel="stylesheet" href="../styles/section.css">
-	<link rel="stylesheet" href="../styles/blogs.css">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/section.css">
+    <link rel="stylesheet" href="../styles/blogs.css">
+	<link rel="stylesheet" href="../styles/footer.css">
 
-	<!-- All Icons Link here -->
-	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" />
+    <!-- Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-t5AS+7pIAG4lnkNhVfDCehEuLwo//MXFO+Fgxv6R2DqIuCb6U8foqzLIRtqemw8Y8fWj4jvOZAmxI2OUqbZ7tw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-
-	<style>
-		.linear-text-gradient {
-			background: linear-gradient(to top, rgb(0, 255, 51), rgb(0, 0, 0));
-			-webkit-background-clip: text;
-			background-clip: text;
-			color: transparent;
-			font-size: 18px;
-			font-weight: 600;
-		}
-	</style>
+	<!-- Font Awesome -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></script>
+	<script src="https://kit.fontawesome.comc4254e24a8.js"></script>
 </head>
 
-<body>
-	<div class="background-image">
-		<!-- This tag is only for enabling the background -->
-	</div>
-	<div class="first-glass-page">
-		<!-- header section-->
 
+<body>
+	
+	<div class="background-image"></div>
+
+	<div class="first-glass-page">
+		<!-- Header section -->
 		<header class="header" id="header">
 			<nav class="nav container">
-				<!-- <a href="#" class="nav__logo">Campus Craze</a> -->
-				<!-- <a href="#" class="nav__logo__png"><img src="../img/Campus Craze Logo/logo-normal-black.png"
-						alt="Campus Craze" /></a> -->
 				<h1>Campus <span class="craze">Craze</span></h1>
-
-
+	
 				<div class="nav__menu" id="nav-menu">
-
 					<ul class="nav__list">
 						<li class="nav__item">
 							<a href="../html/admin-desktop.html" class="nav__link">My Campus</a>
@@ -55,19 +44,13 @@
 						<li class="nav__item">
 							<a href="#home" class="nav__link">Home</a>
 						</li>
-						
 						<li class="nav__item">
-							
 							<div class="explore-wrapper">
-
-								<span class="explore-text nav__link "">Explore</span>
-								
+								<a href="#explore"><span class="explore-text nav__link">Explore</span></a>
 								<button class="explore-button">
 									<i class="ri-arrow-down-s-line"></i>
 								</button>
-
 							</div>
-
 							<ul class="dropdown-menu">
 								<!-- Dropdown menu items -->
 								<li><a href="#" class="dropdown-item">Dropdown Item 1</a></li>
@@ -81,40 +64,31 @@
 								<li><a href="#" class="dropdown-item">Dropdown Item 9</a></li>
 							</ul>
 						</li>
-						
-						
-						
 						<li class="nav__item">
 							<a href="#blogs" class="nav__link">Blogs</a>
 						</li>
 						<li class="nav__item">
 							<a href="#about" class="nav__link">About Us</a>
 						</li>
-
 						<li class="nav__item">
 							<a href="#contact us" class="nav__link">Contact Us</a>
 						</li>
-						<li class="nav__item ">
+						<li class="nav__item">
 							<a href="./services-provided-by-campus-craze/community.html" class="nav__link">Community</a>
 						</li>
-						<!-- <div class="linear-text-gradient">
-							<p>Community</p>
-						</div> -->
 					</ul>
-
+	
 					<!-- Close button -->
 					<div class="nav__close" id="nav-close">
 						<i class="ri-close-line"></i>
 					</div>
 				</div>
-
+	
 				<div class="nav__actions">
 					<!-- Search button -->
 					<i class="ri-search-line nav__search" id="search-btn"></i>
-
 					<!-- Login button -->
 					<i class="ri-user-line nav__login" id="login-btn"></i>
-
 					<!-- Toggle button -->
 					<div class="nav__toggle" id="nav-toggle">
 						<i class="ri-menu-line"></i>
@@ -122,200 +96,418 @@
 				</div>
 			</nav>
 		</header>
-
-		<!-- header -> search  section -->
+	
+		<!-- Header -> Search section -->
 		<div class="search" id="search">
 			<form action="" class="search__form">
 				<i class="ri-search-line search__icon"></i>
-				<input type="search" placeholder="What are you looking for?" class="search__input" />
+				<input type="search" placeholder="What are you looking for?" class="search__input">
 			</form>
-
 			<i class="ri-close-line search__close" id="search-close"></i>
 		</div>
-
-		<!-- header -> login section  -->
-
+	
+		<!-- Header -> Login section -->
 		<div class="login" id="login">
 			<form action="" class="login__form">
 				<h2 class="login__title">Log In</h2>
-
 				<div class="login__group">
 					<div>
 						<label for="email" class="login__label">Email</label>
-						<input type="email" placeholder="Write your email" id="email" class="login__input" />
+						<input type="email" placeholder="Write your email" id="email" class="login__input">
 					</div>
-
 					<div>
 						<label for="password" class="login__label">Password</label>
-						<input type="password" placeholder="Enter your password" id="password" class="login__input" />
+						<input type="password" placeholder="Enter your password" id="password" class="login__input">
 					</div>
 				</div>
-
 				<div>
-					<p class="login__signup">
-						You do not have an account? <a href="#">Sign up</a>
-					</p>
-
+					<p class="login__signup">You do not have an account? <a href="#">Sign up</a></p>
 					<a href="#" class="login__forgot"> You forgot your password </a>
-
-					<!-- <button type="submit" class="login__button" >Log In</button> -->
 					<a href="./socialbook.html" class="login__button">Log In</a>
 				</div>
 			</form>
-
 			<i class="ri-close-line login__close" id="login-close"></i>
 		</div>
-
 	</div>
+	
 
-	<!-- todo hero section  -->
+<!-- Hero section -->
+<section class="hero section" id="home">
+    <div class="inner-section-area">
+        <div class="hero-text">
+            <h3>Welcome to the Next Generation of Campus Collaboration</h3>
+            <h2>Hey Crazies!</h2>
+            <p>
+                Join the dynamic community where college students come together
+                to collaborate, innovate, and thrive. Whether you're seeking academic support,
+                entrepreneurial opportunities, or simply looking to connect with like-minded peers,
+                Campus Craze is your gateway to endless possibilities.
+            </p>
+        </div>
+        <div class="hero-img">
+            <img src="../img/hero-img.png" alt="Hero Image">
+        </div>
+    </div>
+</section>
 
-	<section class="hero section" id="home">
-		<div class="inner-section-area">
-			<div class="hero-text">
-				<h3>Welcome to the Next Generation of Campus Collaboration</h3>
-				<h1>Hey Crazies!</h1>
-				<p>
-					Join the dynamic community where college students come together
-					to collaborate, innovate, and thrive. Whether you're seeking academic support,
-					entrepreneurial opportunities, or simply looking to connect with like-minded peers,
-					Campus Craze is your gateway to endless possibilities.
-				</p>
-			</div>
-			<div class="hero-img">
-				<img src="../img/hero-img.png" alt="">
-			</div>
-		</div>
-	</section>
 
-	</div>
-
-	<!-- showcase section  -->
-	<section class="showcase section">
-		<div class="inner-section-area">
-			<div class="cards-container">
-				<div class="card">
-					<img src="../img/student-5266576-4403850.webp" alt="Students">
-					<h4>50k+ students</h4>
-					<p>Join our diverse community of over 50,000 students worldwide, learning and growing together.</p>
-				</div>
-				<div class="card">
-					<img src="../img/OIP.png" alt="Cities">
-					<h4>10+ Cities</h4>
-					<p>Spanning across more than 10 vibrant cities, our community is thriving in urban hubs globally.
-					</p>
-				</div>
-				<div class="card">
-					<img src="../img/universitie.webp" alt="Universities">
-					<h4>1000+ Universities</h4>
-					<p>Connected with over 1000 esteemed universities, our network empowers academic excellence.</p>
-				</div>
-				<div class="card">
-					<img src="../img/programmer-avatar.png" alt="Developers">
-					<h4>10k+ Developers</h4>
-					<p>With over 10,000 developers onboard, innovation and collaboration are at the core of our
-						community.</p>
-				</div>
-				<div class="card">
-					<img src="../img/community.webp" alt="Community">
-					<h4>Largest Community</h4>
-					<p>Be a part of the largest and most inclusive community, where every voice matters.</p>
-				</div>
-			</div>
-		</div>
-	</section>
+	<!-- Showcase section -->
+<section class="showcase section">
+    <div class="inner-section-area">
+        <div class="cards-container">
+            <div class="card">
+                <img src="../img/student-5266576-4403850.webp" alt="Students">
+                <h4>50k+ students</h4>
+                <p>Join our diverse community of over 50,000 students worldwide, learning and growing together.</p>
+            </div>
+            <div class="card">
+                <img src="../img/OIP.png" alt="Cities">
+                <h4>10+ Cities</h4>
+                <p>Spanning across more than 10 vibrant cities, our community is thriving in urban hubs globally.
+                </p>
+            </div>
+            <div class="card">
+                <img src="../img/universitie.webp" alt="Universities">
+                <h4>1000+ Universities</h4>
+                <p>Connected with over 1000 esteemed universities, our network empowers academic excellence.</p>
+            </div>
+            <div class="card">
+                <img src="../img/programmer-avatar.png" alt="Developers">
+                <h4>10k+ Developers</h4>
+                <p>With over 10,000 developers onboard, innovation and collaboration are at the core of our
+                    community.</p>
+            </div>
+            <div class="card">
+                <img src="../img/community.webp" alt="Community">
+                <h4>Largest Community</h4>
+                <p>Be a part of the largest and most inclusive community, where every voice matters.</p>
+            </div>
+        </div>
+    </div>
+</section>
 
 	<!-- feature-cards section  -->
 	<section class="feature-cards section" id="explore">
 		<div class="inner-section-area">
-			<h1>Explore more</h1>
+			<h1 class="exploretitle">Explore More About us</h1>
 			<div class="feature-cards-container">
-				<p> {todo: here we will display the slider of all the features} </p>
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="f-card">
+					<img src="" alt="">
+					<h3>f-card</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat ea vero soluta
+						recusandae voluptate.</p>
+					<a href="other-webpage.html" class="card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- todo: Community project shocase -->
+	<section class="community-card section">
+		<div class="inner-section-area">
+			<h1 class="community-title">Best Projects From Campus Craze Community</h1>
+			<div class="community-card-container">
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+				<div class="c-card">
+				<div class="title-img-text">
+					<img src="../img/community-project.jpg" alt="">
+					<h1>Title</h1>
+				</div>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores aliquid voluptas
+						modi laudantium ipsam totam, sunt reprehenderit quam dolorum nesciunt aspernatur quos distinctio
+						qui eum odit, nostrum tempore beatae quibusdam tempora, temporibus assumenda ea quidem nihil.
+						Dolore iusto ipsum inventore omnis, consequatur similique soluta eaque provident repellat,
+						recusandae quidem!</p>
+					<a href="other-webpage.html" class="f-card-link">
+						<i class='bx bx-chevrons-right arrow-icon'></i>
+					</a>
+				</div>
+
+		
+			
+
 			</div>
 		</div>
 	</section>
 
 	<!--todo: blogs showcase section  -->
-	<div class="blog-showcase ">
+	<div class="blog-showcase " id="blogs">
 		<h1>Explore some Blogs</h1>
-	<div class="glass-card-grid">
-		
-		<div class="glass-card one">
+		<div class="glass-card-grid">
 
-			<h3 class="glass-card-title"><a href="#"> Title </a></h3>
+			<div class="glass-card one">
 
-			<div class="tags">
-				<a href="#" rel="tag">#tag 1</a>
-				<a href="#" rel="tag">#tag 2</a>
-			</div>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-				excepturi veritatis vitae corporis! Dolorum soluta similique qui
-				assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-				minima illo inventore magni odio.
-			</p>
-			<div class="author-row">
-				<a class="author-name" href="#"> Author </a>
-			</div>
-		</div>
-		<div class="glass-card two">
-			<h3 class="glass-card-title"><a href="#"> Title </a>
-			</h3>
-			<div class="tags">
-				<a href="#" rel="tag">#tag 1</a>
-				<a href="#" rel="tag">#tag 2</a>
-			</div>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-				excepturi veritatis vitae corporis! Dolorum soluta similique qui
-				assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-				minima illo inventore magni odio.
-			</p>
-			<div class="author-row">
-				<a class="author-name" href="#"> Author </a>
-			</div>
-		</div>
-		<div class="glass-card three">
-			<h3 class="glass-card-title"><a href="#"> Title </a>
-			</h3>
-			<div class="tags">
-				<a href="#" rel="tag">#tag 1</a>
-				<a href="#" rel="tag">#tag 2</a>
-			</div>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-				excepturi veritatis vitae corporis! Dolorum soluta similique qui
-				assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-				minima illo inventore magni odio.
-			</p>
-			<div class="author-row">
-				<a class="author-name" href="#"> Author </a>
-			</div>
-		</div>
-		<div class="glass-card four">
-			<h3 class="glass-card-title"><a href="#"> Title </a>
-			</h3>
-			<div class="tags">
-				<a href="#" rel="tag">#tag 1</a>
-				<a href="#" rel="tag">#tag 2</a>
-			</div>
-			<p>
-				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-				excepturi veritatis vitae corporis! Dolorum soluta similique qui
-				assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-				minima illo inventore magni odio.
-			</p>
-			<div class="author-row">
-				<a class="author-name" href="#"> Author </a>
-			</div>
-		</div>
+				<h3 class="glass-card-title"><a href="#"> Title </a></h3>
 
-		<div class="blog-welcome-card">
-			<h3>Find More relating blogs at our blogs page</h3>
-			<button type="submit" onclick="window.location='blogs.html'">blog page</button>
+				<div class="tags">
+					<a href="#" rel="tag">#tag 1</a>
+					<a href="#" rel="tag">#tag 2</a>
+				</div>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+					excepturi veritatis vitae corporis! Dolorum soluta similique qui
+					assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+					minima illo inventore magni odio.
+				</p>
+				<div class="author-row">
+					<a class="author-name" href="#"> Author </a>
+				</div>
+			</div>
+			<div class="glass-card two">
+				<h3 class="glass-card-title"><a href="#"> Title </a>
+				</h3>
+				<div class="tags">
+					<a href="#" rel="tag">#tag 1</a>
+					<a href="#" rel="tag">#tag 2</a>
+				</div>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+					excepturi veritatis vitae corporis! Dolorum soluta similique qui
+					assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+					minima illo inventore magni odio.
+				</p>
+				<div class="author-row">
+					<a class="author-name" href="#"> Author </a>
+				</div>
+			</div>
+			<div class="glass-card three">
+				<h3 class="glass-card-title"><a href="#"> Title </a>
+				</h3>
+				<div class="tags">
+					<a href="#" rel="tag">#tag 1</a>
+					<a href="#" rel="tag">#tag 2</a>
+				</div>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+					excepturi veritatis vitae corporis! Dolorum soluta similique qui
+					assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+					minima illo inventore magni odio.
+				</p>
+				<div class="author-row">
+					<a class="author-name" href="#"> Author </a>
+				</div>
+			</div>
+			<div class="glass-card four">
+				<h3 class="glass-card-title"><a href="#"> Title </a>
+				</h3>
+				<div class="tags">
+					<a href="#" rel="tag">#tag 1</a>
+					<a href="#" rel="tag">#tag 2</a>
+				</div>
+				<p>
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+					excepturi veritatis vitae corporis! Dolorum soluta similique qui
+					assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+					minima illo inventore magni odio.
+				</p>
+				<div class="author-row">
+					<a class="author-name" href="#"> Author </a>
+				</div>
+			</div>
 
+			<div class="blog-welcome-card">
+				<h3>Find More relating blogs at our blogs page <a href=""><i class='bx bx-chevrons-right '></i></a></h3>
+				
+			</div>
 		</div>
-	</div>
 	</div>
 
 
@@ -331,22 +523,6 @@
 				</div>
 				<div class="about-text">
 					<p class="para">
-						<!-- Welcome to Campus Craze – the ultimate platform tailored specifically for college students seeking connection, collaboration, and creativity! 
-						Here, you'll discover an interactive space where students unite to explore shared interests, ignite innovative projects, and forge lasting connections.
-						But that's just the beginning. Campus Craze isn't just a social hub; it's a vibrant community that goes beyond casual interactions. 
-						By joining Campus Craze, you're not just accessing a platform – you're tapping into a network of like-minded individuals who share your passions and ambitions. 
-						This community isn't just about socializing; it's about building valuable relationships that can extend far beyond your college years.
-						And the benefits don't end there. Campus Craze isn't just about fun; it's about future opportunities. 
-						By engaging with our diverse community, you'll open doors to exciting career prospects and recruiting opportunities. 
-						Whether you're looking for internships, job opportunities, or connections in your field of interest, Campus Craze provides a platform for professional growth and development. 
-						Moreover, Campus Craze empowers students and developers to showcase their projects to a wide audience within the community. 
-						Whether you've created a groundbreaking app, a revolutionary website, or an innovative tool, you can share it with fellow students who can benefit from your work. 
-						Not only does this allow you to gain recognition for your efforts, but it also opens up opportunities to earn money or even get hired by companies seeking talented individuals with real-world project experience.
-						But it doesn't stop there. Need to find a roommate for the upcoming semester? Our room finder feature has you covered. Want to save money on textbooks? 
-						Dive into our book exchange section to swap study materials with fellow students. And if you're a developer or tech enthusiast, 
-						our vibrant developers' community offers a space to connect, collaborate, and showcase your projects – opening doors to potential collaborations and career opportunities in the tech industry.
-						So, whether you're here to network, collaborate, or simply stay connected with campus life, Campus Craze is your go-to destination. Welcome aboard – let's make your college journey unforgettable, together! -->
-
 						Welcome to Campus Craze - The ultimate platform for college students seeking connection,
 						collaboration, and creativity! Here, students unite to explore shared interests,
 						ignite innovative projects, and forge lasting connections beyond campus life.
@@ -401,12 +577,57 @@
 		</div>
 	</section>
 
-	<!-- footer section -->
-	<section class="footer section">
+	<footer class="section glassmorphism-footer">
+		
 		<div class="inner-section-area">
-
+			<h2 class="logo">Campus Craze</h2>
+			
+			<div class="row">
+				
+				<div class="col col1">
+					
+					<p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium alias explicabo ut maiores ad iure? Ab laborum error doloremque dignissimos provident, velit mollitia rem! Ducimus nisi placeat ratione mollitia fugiat.</p>
+				</div>
+				
+				<div class="col">
+					<h3>Office</h3>
+					<p>ITPL Road</p>
+					<p>Maharashtra, pune</p>
+					<p>CampusCraze@gmail.com</p>
+					<h4>+91 9876543210</h4>
+				</div>
+				
+				<div class="col">
+					<h3>Links</h3>
+					<ul>
+						<li><a href="#"><i class='bx bx-home'></i> Home</a></li>
+						<li><a href="#"><i class='bx bx-info-circle'></i> About</a></li>
+						<li><a href="#"><i class='bx bx-cog'></i> Services</a></li>
+						<li><a href="#"><i class='bx bx-envelope'></i> Contact</a></li>
+					</ul>
+				</div>
+				
+				<div class="col col4">
+					<h3>Newsletter</h3>
+					<form>
+						<i class="bx bxs-envelope"></i>
+						<input type="email" placeholder="Enter your email ID" required>
+						<a href=""><i class="bx bx-right-arrow-alt"></i></a>
+					</form>
+					<div class="social-icons">
+						<i class="bx bxl-facebook"></i>
+						<i class="bx bxl-twitter"></i>
+						<i class="bx bxl-pinterest"></i>
+						<i class="bx bxl-instagram"></i>
+					</div>
+				</div>
+				
+				
+			</div>
+			
 		</div>
-	</section>
+	</footer>
+	
 
 	<!--JS Links  -->
 	<script src="../js/app.js"></script>
