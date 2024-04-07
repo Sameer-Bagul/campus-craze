@@ -11,30 +11,32 @@ Campus Craze offers a vibrant online community where students can engage in vari
 ### 1. Dev Community
 - **Description:** A hub for developers to collaborate and showcase projects.
 - **Functionality:** Developers can share their projects, seek feedback, ask questions, and engage in discussions on various technologies and coding practices, fostering a supportive environment for growth and learning.
+
+### 2. Events Circle
+- **Description:** Stay updated on events happening in various colleges and clubs.
+- **Functionality:** Users can access a comprehensive list of events taking place in different colleges, share their experiences and pictures, interact with clubs from different colleges, and participate in collaborative activities, enhancing networking and exposure opportunities.
   
-### 2. Flatmates
+### 3. Flatmates
 - **Description:** Find flatmates for accommodation purposes.
 - **Functionality:** Users can search for potential flatmates based on their preferences and requirements.
 
-### 3. Stationery Sell / Exchange
+### 4. Stationery Sell / Exchange
 - **Description:** Buy, sell, or exchange stationary items.
 - **Functionality:** Users can post listings for stationary items they want to sell or exchange, facilitating transactions within the community.
 
-### 4. Blogs Page
+### 5. Blogs Page
 - **Description:** Write and read blogs on various topics.
 - **Functionality:** Users can create blogs covering a wide range of topics such as poetry, personal experiences, stories, thoughts, etc., fostering a creative and expressive environment.
 
-### 5. Art Gallery
+### 6. Art Gallery
 - **Description:** Showcase artwork including paintings, crafts, etc.
 - **Functionality:** Users can upload their artistic creations to share with the community, appreciating and inspiring creativity among peers.
 
-### 6. Alumni Guidance
+### 7. Alumni Guidance
 - **Description:** Receive guidance and insights from alumni and industry professionals.
 - **Functionality:** Alumni members and industry peers can share their experiences, provide career guidance, networking tips, interview preparation advice, etc., helping current students navigate their career paths effectively.
 
-### 7. Events Circle
-- **Description:** Stay updated on events happening in various colleges and clubs.
-- **Functionality:** Users can access a comprehensive list of events taking place in different colleges, share their experiences and pictures, interact with clubs from different colleges, and participate in collaborative activities, enhancing networking and exposure opportunities.
+
 
 ## How to Use
 
