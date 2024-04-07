@@ -292,18 +292,20 @@ img {
 
 .dropdown-item {
     padding: 10px;
+    display: flex;
 }
 
 .dropdown-menu li a {
     color: var(--text-color);
     transition: color 0.4s;
     display: block;
+    transition: all .40s ease;
 }
 
 .dropdown-menu li a:hover {
-    color: var(--first-color);
-    background-color: rgba(249, 109, 0, 0.1);
-    border-radius: 0.25rem;
+    background-color: rgba(249, 108, 0, 0.622);
+    border-radius: 20px;
+    font-weight: 600;
 }
 
 /* Neon blur glow animation for search and user buttons */

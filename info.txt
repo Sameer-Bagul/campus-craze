@@ -5,3 +5,36 @@ Hey Crazies!
         Campus Craze is your gateway to endless possibilities.
 
 Discover the vibrant community of Campus Craze where students collaborate and create.
+
+
+## List of WebPages / fetures we are going to link on the Campus Craze this all pages will be accessible from the 
+   admin desktop page and the landing page of Campus Craze
+
+   1. Flatmates
+   ----> user can find flatmates on this page.
+   
+   2. Stationary Sell / Exchange
+   ----> user can Exchange Or sell their Stationary items here.
+
+   3. Blogs page
+   ----> users can make blogs here about various topics like : #Shayari , #something they exprience about, #stories, #thoughts etc.. 
+
+   4. Art - Gallery
+   ----> users can upload their art pices like painting, crafts, etc. 
+
+   5. Dev Community
+   ----> [HOT TOPIC] This is the most important web page  for developers in our website. Here they can share there projects and get feedback from other developers.
+   ----> This section will be for developers who want to build something new, showcase their projects, ask questions about a particular technology, or
+   ----> Developer community for developers who want to share there projects and get feedback from other devs.
+   ----> a place for developers to share there projects, ask questions, get help from other devs.
+
+   6. Alumini Guidance
+   ----> in this page the senior users and the peers from the industries can share theri expriences about interviews 
+   ----> alumni members who are willing to guide current students in terms of career guidance, networking, interviews etc.
+
+   7. Events Circle
+   ----> [HOT TOPIC] 
+   ----> this is also a important page where  all events are listed which are happening in other engineering colleges.
+   ----> this is the place to share the pics and expriences of many events  which are happening in different colleges.
+   ----> Leadds of diifferent Clubs like GDSC, ACM etc will make their clubs here and can manage them from this page. 
+   ----> we can interact with many other colleges from this page as here are so many colleges will be listed with the clubs they are holding.
