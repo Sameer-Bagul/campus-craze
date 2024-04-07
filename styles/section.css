@@ -1,6 +1,33 @@
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --first-color: #f96d00;
+    --title-color: #393e46;
+    --text-color: hsl(230, 15%, 8%);
+    --body-color: hsl(230, 100%, 98%);
+    --container-color: hsl(230, 100%, 97%);
+    --border-color: hsl(230, 25%, 80%);
+
+    /*========== Font and typography ==========*/
+    --body-font: "Poppins", sans-serif;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+
+
 /* CSS to hide X-direction scrolling */
 body {
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-x: hidden;
+    /* Disable horizontal scrolling */
 }
 
 /* Styling for all sections and background image */
@@ -10,15 +37,24 @@ body {
 }
 
 .background-image {
-    background-image: url('../img/web-bg-1.svg'); /* Specify the path to your image */
-    background-size: cover; /* Cover the entire container */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    position: fixed; /* Fixed positioning to make it independent of scrolling */
-    top: 0; /* Positioning at the top of the viewport */
-    left: 0; /* Positioning at the left of the viewport */
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    z-index: -1; /* Place it behind other content */
+    background-image: url('../img/web-bg-1.svg');
+    /* Specify the path to your image */
+    background-size: cover;
+    /* Cover the entire container */
+    background-repeat: no-repeat;
+    /* Prevent the image from repeating */
+    position: fixed;
+    /* Fixed positioning to make it independent of scrolling */
+    top: 0;
+    /* Positioning at the top of the viewport */
+    left: 0;
+    /* Positioning at the left of the viewport */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    z-index: -1;
+    /* Place it behind other content */
 }
 
 /* Inner section area styling */
@@ -28,8 +64,8 @@ body {
     margin: 0% 2% 2% 2%;
     padding: 20px;
     border-radius: 25px;
-    backdrop-filter: blur(15px); 
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);    
+    backdrop-filter: blur(15px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
     border-top: 1px solid #ffffff;
     border-left: 1px solid #ffffff;
 }
@@ -50,7 +86,7 @@ body {
 }
 
 .hero .inner-section-area p {
-    padding: 0px 70px 0px 0px ;
+    padding: 0px 70px 0px 0px;
 }
 
 .hero .hero-text {
@@ -73,16 +109,23 @@ body {
 .showcase .cards-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px; /* Adjust the gap between cards as needed */
+    gap: 20px;
+    /* Adjust the gap between cards as needed */
 }
 
-.showcase .cards-container > .card {
-    background-color: rgba(255, 255, 255, 0.15); /* Background color with transparency */
-    backdrop-filter: blur(10px); /* Blur effect */
-    border-radius: 15px; /* Rounded corners */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Border color with transparency */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow */
-    text-align: center; /* Optional: Center align contents within each card */
+.showcase .cards-container>.card {
+    background-color: rgba(255, 255, 255, 0.15);
+    /* Background color with transparency */
+    backdrop-filter: blur(10px);
+    /* Blur effect */
+    border-radius: 15px;
+    /* Rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* Border color with transparency */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Box shadow */
+    text-align: center;
+    /* Optional: Center align contents within each card */
 }
 
 .card-container {
@@ -99,10 +142,10 @@ body {
 .showcase .cards-container img {
     max-width: 100%;
     height: auto;
-    border-radius: 15px 15px 0 0; 
+    border-radius: 15px 15px 0 0;
     padding: 10px;
     width: 100px;
-    height: 100px;   
+    height: 100px;
 }
 
 .showcase .cards-container h6,
@@ -120,14 +163,16 @@ body {
 }
 
 .card img:hover {
-    transform: scale(1.1);    
+    transform: scale(1.1);
 }
 
 /* Explore section styling */
 .feature-cards-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid with minimum width of 250px */
-    grid-gap: 20px; /* Spacing between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Responsive grid with minimum width of 250px */
+    grid-gap: 20px;
+    /* Spacing between grid items */
 }
 
 .exploretitle {
@@ -141,18 +186,21 @@ body {
     margin: 0% 2% 2% 2%;
     padding: 20px;
     border-radius: 25px;
-    backdrop-filter: blur(15px); 
-    padding: 20px; 
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);    
+    backdrop-filter: blur(15px);
+    padding: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
     border-top: 1px solid #ffffff;
     border-left: 1px solid #ffffff;
     transition: all .40 ease-in;
 }
 
 .f-card-link {
-    position: absolute; /* Position the link absolutely within the f-card */
-    bottom: 10px; /* Adjust the distance from the bottom */
-    right: 10px; /* Adjust the distance from the right */
+    position: absolute;
+    /* Position the link absolutely within the f-card */
+    bottom: 10px;
+    /* Adjust the distance from the bottom */
+    right: 10px;
+    /* Adjust the distance from the right */
 }
 
 .title-img-text {
@@ -167,8 +215,10 @@ body {
 /*! Community cards section styling */
 .community-card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); /* Responsive grid with minimum width of 500px */
-    grid-gap: 20px; /* Spacing between grid items */
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    /* Responsive grid with minimum width of 500px */
+    grid-gap: 20px;
+    /* Spacing between grid items */
 }
 
 .community-title {
@@ -181,8 +231,8 @@ body {
     height: auto;
     margin: 0% 2% 2% 2%;
     border-radius: 25px;
-    backdrop-filter: blur(15px); 
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);    
+    backdrop-filter: blur(15px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
     border-top: 1px solid #ffffff;
     border-left: 1px solid #ffffff;
     transition: all .40s ease-in;
@@ -199,7 +249,7 @@ body {
 }
 
 .c-card img:hover {
-    transform: scale(1.1);    
+    transform: scale(1.1);
 }
 
 .c-card h1 {
@@ -211,8 +261,10 @@ body {
 }
 
 .arrow-icon {
-    font-size: 30px; /* Adjust the size of the arrow icon */
-    color: #000000; /* Change the color of the arrow icon */
+    font-size: 30px;
+    /* Adjust the size of the arrow icon */
+    color: #000000;
+    /* Change the color of the arrow icon */
 }
 
 /*! About section styling */
@@ -246,13 +298,14 @@ p {
 
 .what-we-do {
     display: grid;
-    grid-template-rows: repeat(6 , auto) ;
+    grid-template-rows: repeat(6, auto);
 }
-.what-we-do h2{
+
+.what-we-do h2 {
     text-align: center;
     font-size: 40px;
     margin-top: 30px;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
 }
 
 .what-we-do .feature {
@@ -260,45 +313,115 @@ p {
     place-items: center;
     grid-template-columns: 1fr 1fr;
 }
-.feature img{
+
+.feature img {
     border-radius: 20px;
     transform: scale(0.8);
 }
 
 .feature .text-content {
-    display:  grid;
+    display: grid;
     justify-content: center;
     align-items: start;
     gap: 30px;
-    margin-top: -90px; /* to make the feature box closer to image and give space for heading*/  
+    margin-top: -90px;
+    /* to make the feature box closer to image and give space for heading*/
     padding: 50px;
 }
+
 .feature h3 {
     font-size: 30px;
     font-weight: 600;
 }
+
 .feature p {
     font-size: 15px;
 }
+
 @media (max-width: 768px) {
     .what-we-do.feature {
-         grid-template-columns: 1fr;
-     }
- 
+        grid-template-columns: 1fr;
+    }
+
     .feature.text-content {
-         margin-top: 0;
-         padding: 20px;
-     }
- 
+        margin-top: 0;
+        padding: 20px;
+    }
+
     .feature img {
-         transform: scale(0.8);
-         margin: 3px;
-         padding: 3px;
-     }
-     .what-we-do .feature {
+        transform: scale(0.8);
+        margin: 3px;
+        padding: 3px;
+    }
+
+    .what-we-do .feature {
         display: grid;
         place-items: center;
         grid-template-columns: 1fr;
-        gap:10px
+        gap: 10px
     }
- }
+}
+
+/*! collboration section styling  */
+
+.contribute h1 {
+    margin: 30px;
+    font-size: 30px;
+}
+
+.collaborate-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+    align-items: center ;
+}
+
+.text-content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.text-content p {
+    text-indent: 40px;
+    margin: 20px;
+}
+.collaboration {
+    margin-left:30px ;
+}
+/* collab form styling */
+.form {
+    margin-top: 30px;
+    width: 96%;
+    height: 90%;
+    border: 1px dashed var(--first-color);
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    /* border: 1px solid #cccccc; */
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: var(--first-color);
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .40s ease;
+}
+
+.form button:hover {
+    background-color: var(--first-color);
+    transform: scale(0.9) rotate(2deg);
+}
