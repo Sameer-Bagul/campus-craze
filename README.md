@@ -47,7 +47,3 @@ Campus Craze offers a vibrant online community where students can engage in vari
 ## Contribution Guidelines
 
 We welcome contributions from the community to improve and expand Campus Craze. If you have ideas for new features, enhancements, or bug fixes, please feel free to submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
