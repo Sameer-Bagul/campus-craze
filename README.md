@@ -8,25 +8,25 @@ Campus Craze offers a vibrant online community where students can engage in vari
 
 ## Features
 
-### 1. Flatmates
+### 1. Dev Community
+- **Description:** A hub for developers to collaborate and showcase projects.
+- **Functionality:** Developers can share their projects, seek feedback, ask questions, and engage in discussions on various technologies and coding practices, fostering a supportive environment for growth and learning.
+  
+### 2. Flatmates
 - **Description:** Find flatmates for accommodation purposes.
 - **Functionality:** Users can search for potential flatmates based on their preferences and requirements.
 
-### 2. Stationery Sell / Exchange
+### 3. Stationery Sell / Exchange
 - **Description:** Buy, sell, or exchange stationary items.
 - **Functionality:** Users can post listings for stationary items they want to sell or exchange, facilitating transactions within the community.
 
-### 3. Blogs Page
+### 4. Blogs Page
 - **Description:** Write and read blogs on various topics.
 - **Functionality:** Users can create blogs covering a wide range of topics such as poetry, personal experiences, stories, thoughts, etc., fostering a creative and expressive environment.
 
-### 4. Art Gallery
+### 5. Art Gallery
 - **Description:** Showcase artwork including paintings, crafts, etc.
 - **Functionality:** Users can upload their artistic creations to share with the community, appreciating and inspiring creativity among peers.
-
-### 5. Dev Community
-- **Description:** A hub for developers to collaborate and showcase projects.
-- **Functionality:** Developers can share their projects, seek feedback, ask questions, and engage in discussions on various technologies and coding practices, fostering a supportive environment for growth and learning.
 
 ### 6. Alumni Guidance
 - **Description:** Receive guidance and insights from alumni and industry professionals.
