@@ -195,6 +195,7 @@ body {
     width: 200px;
     border-radius: 25px;
     margin: 15px;
+    transition: all .40s ease;
 }
 
 .c-card img:hover {
@@ -239,3 +240,65 @@ body {
 p {
     font-weight: 500;
 }
+
+
+/*! why us ? section styling */
+
+.what-we-do {
+    display: grid;
+    grid-template-rows: repeat(6 , auto) ;
+}
+.what-we-do h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+}
+
+.what-we-do .feature {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+.feature img{
+    border-radius: 20px;
+    transform: scale(0.8);
+}
+
+.feature .text-content {
+    display:  grid;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    margin-top: -90px; /* to make the feature box closer to image and give space for heading*/  
+    padding: 50px;
+}
+.feature h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.feature p {
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    .what-we-do.feature {
+         grid-template-columns: 1fr;
+     }
+ 
+    .feature.text-content {
+         margin-top: 0;
+         padding: 20px;
+     }
+ 
+    .feature img {
+         transform: scale(0.8);
+         margin: 3px;
+         padding: 3px;
+     }
+     .what-we-do .feature {
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr;
+        gap:10px
+    }
+ }
