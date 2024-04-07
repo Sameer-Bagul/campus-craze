@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#" onclick="showContent('desktop')">Desktop</a></li>
+            <li><a href="#" onclick="showContent('post')">Post Feed</a></li>
+            <li><a href="#" onclick="showContent('blogs')">Blogs Feed</a></li>
+            <li><a href="#" onclick="showContent('work')">Work Feed</a></li>
+            <li><a href="#" onclick="showContent('more1')">More 1</a></li>
+            <li><a href="#" onclick="showContent('more2')">More 2</a></li>
+            <li><a href="#" onclick="showContent('more3')">More 3</a></li>
+            <li><a href="#" onclick="showContent('more4')">More 4</a></li>
+            <li><a href="#" onclick="showContent('more5')">More 5</a></li>
+        </ul>
+    </div>
+    <div class="content" id="content">
+        <!-- Content will be loaded dynamically here -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
