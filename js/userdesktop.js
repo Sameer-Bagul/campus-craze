@@ -1,22 +1,33 @@
-function loadContent(contentUrl) {
-    var content = document.getElementById('nav-footer-content');
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            content.innerHTML = this.responseText;
-        }
-    };
-    xhttp.open("GET", contentUrl, true);
-    xhttp.send();
-}
-
 document.addEventListener("DOMContentLoaded", function() {
-    var navButtons = document.querySelectorAll('.nav-button');
+    const navButtons = document.querySelectorAll('.nav-button');
+    const contentContainer = document.createElement('div');
+    contentContainer.setAttribute('id', 'content-container');
+    document.body.appendChild(contentContainer);
 
-    navButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-            var contentUrl = button.getAttribute('data-content');
-            loadContent(contentUrl);
-        });
+    // Function to load content
+    function loadContent(contentUrl) {
+        fetch(contentUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(data => {
+                // Update the content container with the loaded content
+                contentContainer.innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error fetching content:', error);
+            });
+    }
+
+// Event listener for each navigation button
+navButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        const contentUrl = button.getAttribute('data-content');
+        loadContent(contentUrl);
     });
+});
+
 });
