@@ -79,9 +79,9 @@ header {
     grid-template-columns: 0.8fr 1.2fr;
     
     border-radius: 25px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(28px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); 
-    border: wheat 0.8px solid; 
+    border: 0.5px white dashed;
     
     .textArea{
         display: grid;
@@ -104,7 +104,7 @@ header {
 .hero-section{
     
     border-radius: 25px;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(28px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); 
     background-color: #00000065;
     border: 1px white dashed;
@@ -141,6 +141,13 @@ header {
 
 .Explore{
     text-align: center;
+    margin: 20px 30%;
+    padding: 20px;
+    border-radius: 25px;
+    backdrop-filter: blur(28px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); 
+    background-color: #00000065;
+    border: 0.5px white dashed;
 }
 
 .ProSearchbar .search-form{
